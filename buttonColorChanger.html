@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Color Changer</title>
+</head>
+<body>
+    <main>
+        <h2>CHange color of all the buttons</h2>
+        <div>
+            <form action="">
+                <select name="backdrop" id="background" onchange="btnColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button style="background-color:blue">Wee!</button>
+            <button style="background-color:red">Danger!</button>
+            <button style="background-color:yellow">Warning</button>
+            <button style="background-color:green">Success!</button>
+        </div>
+    </main>
+</body>
+</html>
+<script src="./buttonColorChanger.js"></script>
